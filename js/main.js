@@ -38,3 +38,10 @@ const teamMembers = [
 ]
 
 console.log(teamMembers);
+
+for (const property in teamMembers) {
+    console.log(teamMembers[property].name);
+    console.log(teamMembers[property].surname);
+    console.log(teamMembers[property].role);
+    console.log(teamMembers[property].imgpath);
+};
