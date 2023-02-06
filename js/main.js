@@ -30,13 +30,13 @@ const teamMembers = [
         name: 'Scott',
         surname: 'Estrada',
         role: 'Developer',
-        imgpath: './scott-estrada-developer.jpg'
+        imgpath: './img/scott-estrada-developer.jpg'
     },
     {
         name: 'Barbara',
         surname: 'Ramos',
         role: 'Graphic Designer',
-        imgpath: './barbara-ramos-graphic-designer.jpg'
+        imgpath: './img/barbara-ramos-graphic-designer.jpg'
     }
 ]
 
