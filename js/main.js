@@ -1,3 +1,6 @@
+// Output Var
+const teamMembersEl = document.getElementById('team_members');
+
 const teamMembers = [
     {
         name: 'Wayne',
@@ -40,8 +43,13 @@ const teamMembers = [
 console.log(teamMembers);
 
 for (const property in teamMembers) {
-    console.log(teamMembers[property].name);
-    console.log(teamMembers[property].surname);
-    console.log(teamMembers[property].role);
-    console.log(teamMembers[property].imgpath);
+    teamMembersEl.innerHTML += `
+    <div class="card" style="width: 18rem;">
+        <img src="${teamMembers[property].imgpath}" class="card-img-top" alt="${teamMembers[property].name} ${teamMembers[property].surname} team image">
+        <div class="card-body">
+            <p class="card-text">${teamMembers[property].name} ${teamMembers[property].surname}</p>
+            <p class="card-text">${teamMembers[property].role}</p>
+        </div>
+    </div>
+    `
 };
