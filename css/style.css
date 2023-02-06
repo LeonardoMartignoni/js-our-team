@@ -1,3 +1,16 @@
+/* Generics */
+
+body {
+    font-family: 'Noto Serif', serif;
+    background-color: #F5F5F0;
+}
+
+/* Team Cards */
+
+.card-body {
+    color: #645E57;
+}
+
 .team_role {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
 }

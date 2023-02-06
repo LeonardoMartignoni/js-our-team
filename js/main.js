@@ -45,8 +45,8 @@ console.log(teamMembers);
 for (const property in teamMembers) {
     teamMembersEl.innerHTML += `
     <div class="col d-flex justify-content-center">
-        <div class="card" style="width: 16rem;">
-            <img src="${teamMembers[property].imgpath}" class="card-img-top" alt="${teamMembers[property].name} ${teamMembers[property].surname} team image">
+        <div class="card rounded-0 border-0" style="width: 16rem;">
+            <img src="${teamMembers[property].imgpath}" class="card-img-top rounded-0" alt="${teamMembers[property].name} ${teamMembers[property].surname} team image">
             <div class="card-body text-center">
                 <p class="team_name card-text mb-0 fw-bold">${teamMembers[property].name} ${teamMembers[property].surname}</p>
                 <p class="team_role card-text fw-light">${teamMembers[property].role}</p>
